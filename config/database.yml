@@ -1,0 +1,25 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: car_data_dev
+  pool: 5
+  host: localhost
+  username: dev
+  password: pass
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: car_data_test
+  pool: 5
+  host: localhost
+  username: dev
+  password: pass
+
+production:
+  adapter: sqlite3
+  database: db/production.sqlite3
+  pool: 5
+  timeout: 5000

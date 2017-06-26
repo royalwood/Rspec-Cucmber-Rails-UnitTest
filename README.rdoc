@@ -1,0 +1,3 @@
+== README
+
+This app integrates Devise, Cancan, Rolify, RSpec, Cucumber, Twitter Boostrap, Backbone.js Rails Admin with Rails 4.0
